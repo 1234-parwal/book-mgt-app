@@ -1,0 +1,212 @@
+html, body {
+  height: 100% !important;
+  margin: 0;
+}
+.form-control, .col-form-label, .custom-select, label, header, footer {
+  font-size: 0.8rem !important;
+}
+
+.home-heading {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  padding-top: 100px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.button {
+  padding: .6rem 2rem;
+  line-height: 1.5;
+  border-radius: .4rem;
+  color: #fff;
+  background-color: #1b8bec;
+  border-color: #6c757d;
+  text-decoration: none;
+  font-size: 20px;
+  border: 2px solid rgb(24, 24, 80);
+}
+
+/* Register */
+.register {
+  padding: .5rem 2rem;
+  line-height: 1;
+  border-radius: .4rem;
+  text-align: center;
+  color: #fff;
+  border-color: #6c757d;
+  text-decoration: none;
+  font-size: 20px;
+  border: 2px solid rgb(24, 24, 80);
+}
+
+.pagecenter {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.error {
+  color: red;
+  font-size: 0.8rem;
+}
+.right {
+  text-align: right;
+}
+.link-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  width: 100%;
+  color: #1b8bec;
+}
+.link-button:hover,
+.link-button:focus {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 40rem;
+  margin: 7rem auto 0;
+}
+
+/* Header */
+header {
+  text-align: center;
+}
+header nav {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 10px;
+}
+header nav > a {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 0.5rem 2rem;
+  color: black;
+  padding: 10px;
+  font-size: 30px;
+}
+header nav > .active {
+  background: black;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+}
+
+/* AddForm */
+.form {
+  margin: 2rem auto;
+  max-width: 20rem;
+  font-size: 20px;
+}
+.inputField {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.inputField input {
+  padding: 0.5rem 1rem 0.5rem 0;
+  text-indent: 0.5rem;
+}
+.form .btnForm {
+  background: black;
+  border: 1px solid black;
+  color: white;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.form .form-content {
+font-size: 20px;
+}
+
+.form .btnForm:disabled {
+  background: #ddd;
+  border: 1px solid #ddd;
+  cursor: default;
+}
+
+/* List Book */
+.listBook {
+  margin: 2rem auto 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.listBook .noData {
+  text-align: center;
+  grid-column: 1 / span 3;
+  margin-top: 2rem;
+  color: #333;
+}
+
+.listBook .goBack {
+  padding: 20px;
+  margin: 20px;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.listBook .button-back {
+  padding: .6rem 2rem;
+  line-height: 1.5;
+  border-radius: .4rem;
+  color: #fff;
+  border-color: #6c757d;
+  text-decoration: none;
+  font-size: 20px;
+  border: 2px solid rgb(24, 24, 80);
+  text-align: center;
+}
+
+/* Card */
+.book {
+  background: #ddd;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.book h2 {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 30px;
+}
+.book .bookDetail {
+  line-height: 25px;
+  margin-top: 0.5rem;
+  font-family: Arial, sans-serif;
+  /* font-style: italic; */
+  font-weight: semi-bold;
+}
+.book .buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.book .buttons > button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}

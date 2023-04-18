@@ -1,0 +1,28 @@
+.rightPanel {
+  padding: 100px;
+  margin: 10px;
+  float: right;
+  width: 75%;
+  /* height: 90vh; */
+  overflow: auto;
+  margin-bottom: 45px;
+
+}
+
+.button {
+  padding:100px;
+}
+.col-form-label {
+  text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+  .col-form-label {
+    text-align: left;
+  }
+  .rightPanel {
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 20px;
+  }
+}
